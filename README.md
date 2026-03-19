@@ -13,12 +13,11 @@
 4. [Application Workflow](#application-workflow)
 5. [Weekly Premium Model](#weekly-premium-model)
 6. [Parametric Triggers](#parametric-triggers)
-7. [Platform Choice — Web vs Mobile](#platform-choice--web-vs-mobile)
-8. [AI/ML Integration Plan](#aiml-integration-plan)
-9. [Adversarial Defense & Anti-Spoofing Strategy](#adversarial-defense--anti-spoofing-strategy)
-10. [Tech Stack](#tech-stack)
-11. [Development Plan](#development-plan)
-12. [Team](#team)
+7. [AI/ML Integration Plan](#aiml-integration-plan)
+8. [Adversarial Defense & Anti-Spoofing Strategy](#adversarial-defense--anti-spoofing-strategy)
+9. [Tech Stack](#tech-stack)
+10. [Development Plan](#development-plan)
+11. [Team](#team)
 
 ---
 
@@ -251,31 +250,7 @@ THEN:
 
 ---
 
-## Platform Choice — Web vs Mobile
 
-### We chose: Mobile-First Progressive Web App (PWA)
-
-**Why not native mobile?**
-
-Our target users — Zomato/Swiggy delivery partners — access everything on their smartphones. However, asking them to download yet another app creates friction. A **Progressive Web App (PWA)** gives us the best of both:
-
-- Runs in browser → zero installation barrier
-- Can be "Add to Home Screen" → feels like a native app
-- Works on low-end Android phones (majority of our users)
-- Offline-capable for poor network conditions during bad weather
-
-**Why not desktop web?**
-
-Delivery partners are mobile-only users. A desktop interface would be irrelevant to the persona.
-
-**Tech justification:**
-
-React.js with a mobile-first responsive design gives us:
-- Fast development (single codebase for all devices)
-- Easy demo for hackathon judges on any device
-- Smooth animations and polished UI possible
-
----
 
 ## AI/ML Integration Plan
 
@@ -469,6 +444,8 @@ This is the most important design principle of our fraud system: **innocent work
 ## Tech Stack
 
 ### Frontend
+*Built as a mobile-first Progressive Web App (PWA) — delivery partners are smartphone-only users and a PWA removes the friction of app store installation while working smoothly on low-end Android devices.*
+
 | Technology | Purpose |
 |---|---|
 | React.js | Mobile-first PWA — all screens |
@@ -546,10 +523,10 @@ This is the most important design principle of our fraud system: **innocent work
 
 | Name | Role |
 |---|---|
-| [Name 1] | Full Stack Development |
-| [Name 2] | AI/ML & Backend |
-| [Name 3] | UI/UX & Frontend |
-| [Name 4] | Research & Documentation |
+| Naitik | Full Stack Development |
+| Naitik, Yash | AI/ML & Backend |
+| Tannystha,Ashutosh | UI/UX & Frontend |
+| Akshit,ashutosh | Research & Documentation |
 
 ---
 
